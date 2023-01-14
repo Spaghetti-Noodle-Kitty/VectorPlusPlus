@@ -16,9 +16,13 @@
 
 ## Initializing a new Vector
 > Fairly simple, create a new Vector by the following:
+>
 > ``` Vector2D <Name> = Vector2D(X, Y, Rotation, Force); ```
+>
 > (The Rotation-value is clamped between 0f & 360f)
+>
 > An actual initialization might look like this:
+>
 > ``` Vector2D 45Deg = Vector2D(10f, 10f, 45f, 20f); ```
 
 ## A small closing statement
